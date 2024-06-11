@@ -14,8 +14,8 @@ export default function incdic() {
     <div>
       <h2>Take 2 buttons one for increment & another for decrement & take one default counter 0.</h2>
     <p>count {coun}</p>
-      <button onClick={increment}>increment</button>
-      <button onClick={decriment}>decriment</button>
+      <button style={{color: "green"}} onClick={increment}>increment</button>
+      <button style={{color: "red"}}onClick={decriment}>decriment</button>
     </div>
   )
 }
